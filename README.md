@@ -15,7 +15,7 @@
 - Logging  is done using the **log4Net logging**
 
 ### UI Project
-- Once Index.cshtml page loads the angular app and create the models and all things control, will never return the cshtml and will remain in the client app
+- Once Index.cshtml page loads the angular app and create the models and all things, control will never return the cshtml and will remain in the client app
 - angular **1.x** is used for building the angular app
  
 
