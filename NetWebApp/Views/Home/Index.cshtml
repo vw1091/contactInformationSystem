@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<body ng-app="myApp">
+
+
+    <!------ Include the above in your HEAD tag ---------->
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="#">WebApp</a>
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class="active">
+                            <a ui-sref="home">Home</a>
+                        </li>
+                        @*<li>
+                            <a ui-sref="newcontact">New Contact</a>
+                        </li>*@
+                    </ul>
+                </div><!-- /.nav-collapse -->
+            </div>
+        </div><!-- /navbar-inner -->
+    </div>
+
+
+    <div class="container">
+
+        <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
+        <div ui-view></div>
+
+    </div>
+
+
+</body>
