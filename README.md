@@ -1,13 +1,12 @@
-
+ 
 # Contact Information System
 
 ### .Net Web Api
-- Type some Markdown on the left
-- .Net web api's are build in web api2 which includes **Log4net** for logging purpose, **Exception filter** as exception handling and logging the exceptions
+- .Net web api's are build in web api2 which includes **Log4net** for logging purpose, **Exception filter** for exception handling ,log the exceptions
 - Message handler for logging the request/response
 - **Code first approach** which automatically creates the database and tables
 - **swagger** for testing apis
-- **Flune validation** for validations of models
+- **Fluent validation** for validations of models
 - Extension methods for the converting viewmodel to entity and vice versa
 - **Unity framework**  for dependency injections
 - Returns the consistent responses for all apis
@@ -16,7 +15,7 @@
 - Logging  is done using the **log4Net logging**
 
 ### UI Project
-- Once Index.cshtml page loads the angular app and create the models and all things control will never return the cshtml and will remain in the client app
+- Once Index.cshtml page loads the angular app and create the models and all things control, will never return the cshtml and will remain in the client app
 - angular **1.x** is used for building the angular app
  
 
