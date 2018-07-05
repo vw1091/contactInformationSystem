@@ -11,14 +11,4 @@ app.config(function ($stateProvider, $urlRouterProvider) {
         templateUrl: "../Clientapp/Contact/contact.html"
     })
 
-    // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
-    //.state('newcontact', {
-    //    url: '/newContact',
-    //    templateUrl: "../Clientapp/NewContact/newContact.html"
-    //});
-});
-
-app.controller('myCtrl', function ($scope) {
-    $scope.firstName = 'firstName';
-    $scope.lastName = 'lastName';
 });

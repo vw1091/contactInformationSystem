@@ -22,7 +22,6 @@ app.service('contactService', function ($http, $q) {
     }
 
     this.saveContact = function (contact) {
-        debugger;
         var deferred = $q.defer();
 
         $http.post(contactUrls.saveContact, contact).then(function (result) {
