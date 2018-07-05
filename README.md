@@ -25,3 +25,16 @@
 - For testing the Api, Used swagger which give the list of apis along with request/response object 
 - For angular app, we dont need any configuration, we can directly use the app by running and redirecting to /Home
 - For swagger, redirect the control to /swagger
+
+## Solution Structure
+- *BLL* - as business logic layer
+- *DataAccess* - Responsible for managing Entitty framework and database connections
+- BLL.UnitTest - Unit Tests over the Bll layer
+- NetWebApp/ClientApp - Angular JS
+
+## Third party libraries Used
+- https://github.com/JeremySkinner/FluentValidation
+- https://github.com/domaindrivendev/Swashbuckle
+- https://angularjs.org/
+- https://getbootstrap.com/
+- https://www.nuget.org/packages/Unity/
