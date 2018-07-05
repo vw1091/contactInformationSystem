@@ -20,7 +20,7 @@
  
 
 ### How to Run and Configure
-- For web api, we will need to configure the database connection
+- For web api, we will need to configure the **database connection**
 - For running the app, just need to restore the nuget packages and run by either hosting on IIS or using IIS express
 - For testing the Api, Used swagger which give the list of apis along with request/response object 
 - For angular app, we dont need any configuration, we can directly use the app by running and redirecting to /Home
